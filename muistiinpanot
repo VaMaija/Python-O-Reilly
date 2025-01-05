@@ -1,6 +1,18 @@
-//komennot ja lyhenteet selitettynä//
+Python Fundamentals with Paul Deitel 
+https://learning.oreilly.com/course/python-fundamentals-with/9780135917411/
+
+
+//komennot ja lyhenteet selitettynä ja suomennettuna//
 int (integer) = kokonaisluku
 float (floating-point number) = liukuluku eli desimaaliluku, pilkun sijasta käytetään pistettä
 str (string) = merkkijono
 type (type) = muuttujan tyyppi 
+
+//Tilastotiede, Intro to Data Science: Basic Descriptive Statistics//
+minimum (minimum) = Pienin arvo, joka otannassa otetaan huomioon
+maximum (maximum) = Isoin arvo, joka otannassa otetaan huomioon
+range (range) = otannan vaihteluväli
+count = otannan määrä  
+sum = kaikkien otannan kohteiden summa
+variance and standard deviation
 
