@@ -16,3 +16,6 @@ count = otannan määrä
 sum = kaikkien otannan kohteiden summa
 variance and standard deviation
 
+kieleen on määritelty komennot min ja max
+min(27, 38, 45) kertoo pienimmän luvun vastauksena. 
+max(27, 38, 45) kertoo suurimman luvun vastauksena
