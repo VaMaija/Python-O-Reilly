@@ -1,15 +1,15 @@
 //tunti 3-control statements//
-## if ##
+## if 
 
 
-## if...else ##
+## if...else 
 pisteet = 80
 if pisteet >= 50:
     print("hyväksytty")
 else:
     print("Hylätty")
     
-## if...elif...else ##
+## if...elif...else 
 pisteet=int(input("Anna kurssisi yhteenlasketut pisteet /100 "))
 if pisteet <=50:
     print("Tällä kertaa suoritus ei onnistunut, ota yhteys opettajaan yrittääksesi uudelleen")
