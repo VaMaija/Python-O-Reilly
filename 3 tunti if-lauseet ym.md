@@ -41,6 +41,20 @@ for looppaa jokaisen merkin yhtälössä kunnes merkit loppuvat eli se käy joka
 Ensin se tarkastaa ensimmäisen kirjaimen tai merkin, tekee sille määrätyn tehtävän ja palaa sitten takaisin komentoon ja seuraavaan merkkiin 
 sanassa ohjelmointi: tsekkaa ekan kirjaimen O, lisää väliin ohjeistuksen mukaisesti kaksi välilyöntiä ja menee vasta sitten tarkastamaan seuraavan kirjaimen H, lyö pari välilyöntiä ja niin edelleen...  
 
+listojen käsittely for-komennolla:  
+
+maara=0
+for number in [2, -3, 0, 17, 9]:  //[]squarebrackets define list  
+    maara = maara + number  
+    print(maara)  
+
+2  
+-1  
+-1  
+16  
+25    
+
+
 
 
 ## range ##
