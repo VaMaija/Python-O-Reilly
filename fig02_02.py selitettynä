@@ -1,0 +1,13 @@
+numero1 = int(input("Anna ensimmäinen kokonaisluku")) //int määrittää, että kirjattu luku muutetaan kokonaisluvuksi// 
+numero2 = int(input("Anna toinen kokonaisluku")) 
+numero3 = int(input("Anna kolmas kokonaisluku"))
+
+minimum = numero1 //ensimmäinen numero määritellään ensimmäiseksi vertailuarvoksi. 
+
+if numero2 < minimum: //Mikäli toinen numero on pienempi kuin ensimmäinen niin määritellään minimum -nimisen muuttujan arvoksi numero2 arvo//
+    minimum = numero2
+if numero3 < minimum: //Mikäli toinen numero on pienempi kuin tähän mennessä määritelty minimum (nro1 tai nro2) niin määritellään minimum -nimisen muuttujan arvoksi numero3 arvo//
+    minimum = numero3
+
+print("Pienin arvo on ", minimum)
+
