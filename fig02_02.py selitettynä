@@ -11,3 +11,14 @@ if numero3 < minimum: //Mikäli toinen numero on pienempi kuin tähän mennessä
 
 print("Pienin arvo on ", minimum)
 
+
+voisi myös antaa vastauksen print("Pienin arvo on" , min(numero1, numero2, numero3) )
+
+eli 
+
+numero1 = int(input("Anna ensimmäinen kokonaisluku "))
+numero2 = int(input("Anna toinen kokonaisluku ")) 
+numero3 = int(input("Anna kolmas kokonaisluku "))
+
+print("Pienin arvo on ", min(numero1, numero2, numero3))
+
