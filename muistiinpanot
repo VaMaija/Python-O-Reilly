@@ -1,0 +1,6 @@
+//komennot ja lyhenteet selitettynä//
+int (integer) = kokonaisluku
+float (floating-point number) = liukuluku eli desimaaliluku, pilkun sijasta käytetään pistettä
+str (string) = merkkijono
+type (type) = muuttujan tyyppi 
+
