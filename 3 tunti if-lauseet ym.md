@@ -12,7 +12,7 @@ else:
 ## if...elif...else 
 pisteet=int(input("Anna kurssisi yhteenlasketut pisteet /100 "))  
 if pisteet <=50:  
-    print("Tällä kertaa suoritus ei onnistunut, ota yhteys opettajaan yrittääksesi uudelleen")  
+        print("Tällä kertaa suoritus ei onnistunut, ota yhteys opettajaan yrittääksesi uudelleen")  
 elif pisteet <=59:  
     print("Sait suoritettua kurssin hyväksytysti, arvosanasi on 1")  
 elif pisteet <=69:  
