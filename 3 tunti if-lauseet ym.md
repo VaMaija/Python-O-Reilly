@@ -25,6 +25,7 @@ elif pisteet <=100:
     print("Huima suoritus, arvosanasi on 5!")
 elif pisteet >=101: 
     print("pisteitä pystyy kirjaamaan vaan väliltä 1-100, yritä uudelleen")
+## while ##
 
 ## for ##
 ## range ##
