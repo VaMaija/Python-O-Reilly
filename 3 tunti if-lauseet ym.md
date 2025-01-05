@@ -27,6 +27,11 @@ elif pisteet >=101:
     print("pisteitä pystyy kirjaamaan vaan väliltä 1-100, yritä uudelleen")
 ## while ##
 
+tuote =7
+while tuote <= 1000:    //tekee loopin niin pitkään kun tuotteen arvo on yli 1000//
+    tuote = tuote*7
+print(tuote)
+
 ## for ##
 ## range ##
 ## with ##
