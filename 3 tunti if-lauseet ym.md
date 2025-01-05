@@ -45,14 +45,14 @@ listojen käsittely for-komennolla:
 
 maara=0  
 for number in [2, -3, 0, 17, 9]:    //[]squarebrackets define list  
-       maara = maara + number  
-       print(maara)  
-
-2  
--1  
--1  
-16  
-25    
+    maara = maara + number  
+    print(maara)  
+tulostuu:  
+2  eli 0+2  
+-1 eli 2-3   
+-1 eli -1+0   
+16 eli -1+17  
+25 eli 16+9     
 
 
 
