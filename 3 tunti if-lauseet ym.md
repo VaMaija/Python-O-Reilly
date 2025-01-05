@@ -43,10 +43,10 @@ sanassa ohjelmointi: tsekkaa ekan kirjaimen O, lisää väliin ohjeistuksen muka
 
 listojen käsittely for-komennolla:  
 
-maara=0
-for number in [2, -3, 0, 17, 9]:  //[]squarebrackets define list  
-    maara = maara + number  
-    print(maara)  
+maara=0  
+for number in [2, -3, 0, 17, 9]:    //[]squarebrackets define list  
+       maara = maara + number  
+       print(maara)  
 
 2  
 -1  
