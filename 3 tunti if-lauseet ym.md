@@ -1,4 +1,6 @@
 //tunti 3-control statements//
+paras lukea raw -tekstinä, jolloin koodin sisennykset näkyvät oikein. 
+
 ## if 
 
 
@@ -66,7 +68,7 @@ for **arvosana** in **arvosanat**:              #määritellään uusi muuttuja 
     **laskin** += 1                             #jokaisen kierroksen jälkeen kierrolaskin lisää yhden yksikön laskimeen.    
 
 **keskiarvo** = kokonaispistemaara/laskin      #uusi muuttuja keskiarvo eli kokonaispisteet/kierrokset  
-print(f'Luokan keskiarvo on {keskiarvo}')      #näyttää vastauksen Luokan keskiarvo on _vastaus_ 
+print(f'Luokan keskiarvo on {keskiarvo}')      #f-string toiminnolla näyttää vastauksen "Luokan keskiarvo on _vastaus_" 
 
 
 
