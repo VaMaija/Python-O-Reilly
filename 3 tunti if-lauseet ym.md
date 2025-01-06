@@ -65,7 +65,7 @@ for **arvosana** in **arvosanat**:              #määritellään uusi muuttuja 
     **kokonaispistemaara** += **arvosana**      #jokaisen kierroksen arvosana lisätään kokonaispistemäärään   
     **laskin** += 1                             #jokaisen kierroksen jälkeen kierrolaskin lisää yhden yksikön laskimeen.    
 
-**keskiarvo** = kokonaispistemaara/laskin      #uusi muuttuja keskiarvo eli kokonaispisteet/kierrokset
+**keskiarvo** = kokonaispistemaara/laskin      #uusi muuttuja keskiarvo eli kokonaispisteet/kierrokset  
 print(f'Luokan keskiarvo on {keskiarvo}')      #näyttää vastauksen Luokan keskiarvo on _vastaus_ 
 
 
