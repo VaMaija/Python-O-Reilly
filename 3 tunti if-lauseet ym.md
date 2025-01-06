@@ -61,12 +61,12 @@ esim. keskiarvo.py
 **laskin** = 0  #alussa myös ns. kierrolaskin on nollassa, alkupiste  
 **arvosanat** = [98, 76, 71, 87, 83, 90, 57, 79, 82, 94]  #arvosanat listataan arvosanat-nimen alle  
 
-for **arvosana** in **arvosanat**:            #määritellään uusi muuttuja "arvosana"  
-    **kokonaispistemaara** += **arvosana**    #jokaisen kierroksen arvosana lisätään kokonaispistemäärään   
-    **laskin** += 1                           #jokaisen kierroksen jälkeen kierrolaskin lisää yhden yksikön laskimeen.    
+for **arvosana** in **arvosanat**:              #määritellään uusi muuttuja "arvosana"  
+    **kokonaispistemaara** += **arvosana**      #jokaisen kierroksen arvosana lisätään kokonaispistemäärään   
+    **laskin** += 1                             #jokaisen kierroksen jälkeen kierrolaskin lisää yhden yksikön laskimeen.    
 
-**keskiarvo** = kokonaispistemaara/laskin    #uusi muuttuja keskiarvo eli kokonaispisteet/kierrokset
-print(f'Luokan keskiarvo on {keskiarvo}')    #näyttää vastauksen Luokan keskiarvo on _vastaus_ 
+**keskiarvo** = kokonaispistemaara/laskin      #uusi muuttuja keskiarvo eli kokonaispisteet/kierrokset
+print(f'Luokan keskiarvo on {keskiarvo}')      #näyttää vastauksen Luokan keskiarvo on _vastaus_ 
 
 
 
