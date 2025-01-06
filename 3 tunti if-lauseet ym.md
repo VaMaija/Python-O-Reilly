@@ -36,8 +36,8 @@ tuote =7
 ## for ##
 **for** merkki **in** 'ohjelmointi':  //**for**-komennolla erotetaan variaabeli **merkki** 'ohjelmointi'-sanasta jokainen merkki kahdella välilyönnillä  
     print(merkki, end='  ')  //end=' ' määrää välimerkiksi välilyönnin, sep='; ' määrää separator-merkiksi puolipisteen  
-  sep: Mitä lisätään arvojen väliin saman print-kutsun sisällä.  
-  end: Mitä lisätään lopuksi tulostuksen jälkeen (oletuksena rivinvaihto).  
+  **sep**: Mitä lisätään arvojen väliin saman print-kutsun sisällä. Lisää myös rivinvaihdon.  
+  **end**: Mitä lisätään lopuksi tulostuksen jälkeen (oletuksena rivinvaihto). Ei vaihda riviä.    
 
 for looppaa jokaisen merkin yhtälössä kunnes merkit loppuvat eli se käy jokaisen yhtlön läpi annetun ohjeen mukaisesti.  
 Ensin se tarkastaa ensimmäisen kirjaimen tai merkin, tekee sille määrätyn tehtävän ja palaa sitten takaisin komentoon ja seuraavaan merkkiin 
@@ -60,6 +60,19 @@ tulostuu:
 
 
 ## range ##
+for laskin in range(10): //0-9 bittilaskentaa eli ensimmäinen numero on nolla  
+    print(laskin, sep='/ ') 
+
+0/  
+1/  
+2/  
+ym. 
+
+for laskin in range(10):  
+    print(laskin, end='/ ')
+
+0/  1/  2/  3/  4/  ym. 
+
 ## with ##
 ## boolean: and, or and not ##
 ## break ##
