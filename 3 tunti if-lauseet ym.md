@@ -183,7 +183,7 @@ määritelmät:
 **median**
 **mode**   
 
-Tottakai! **Mean**, **Median** ja **Mode** ovat keskilukujen tyyppejä, joita käytetään kuvaamaan datan keskeisiä ominaisuuksia tilastotieteessä. Tässä selitykset:
+**Mean**, **Median** ja **Mode** ovat keskilukujen tyyppejä, joita käytetään kuvaamaan datan keskeisiä ominaisuuksia tilastotieteessä. 
 
 ---
 
