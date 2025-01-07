@@ -119,6 +119,15 @@ antaa tulokseksi luvut 5-120, jotka ovat viidellä jaollisia ja laittaa lukujen 
 for number in range(120, 4, -5): 
     print(number, sep='*') //laskee 120 viidellä jaolliset numerot ja listaa ne allekkain//
 
+
+Tehtävänä oli tehdä laskin joka laskee 0-100 sisältä joka toisen numeron yhteen. 
+loppusumma=0  //aloitusarvo//
+for number in range(0, 101, 2):     //100 tulee olla mukana, joten laskeminen loppuu 101-lukuun//  
+    loppusumma += number    //loppusumma
+    print(loppusumma)   
+
+
+
 ## with ##
 ## boolean: and, or and not ##
 ## break ##
