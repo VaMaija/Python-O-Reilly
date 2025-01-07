@@ -262,5 +262,7 @@ Mode = Ei moodia
 
 ---
 
-Jos sinulla on kysyttävää näistä tai haluat lisää esimerkkejä, kysy ihmeessä! 😊
+lähteet: 
+[O'Reilly](https://learning.oreilly.com/videos/python-fundamentals-with/9780135917411/9780135917411-PFLL_Lesson03_12/) 
+[chat-gpt: Mean, Median and mode](https://chatgpt.com/c/677bde40-2600-8011-a063-93c24ecb40c5)
 
