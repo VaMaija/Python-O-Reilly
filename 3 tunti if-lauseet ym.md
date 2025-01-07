@@ -105,10 +105,16 @@ for laskin in range(10): //0-9 bittilaskentaa eli ensimmäinen numero on nolla
 2/  
 ym. 
 
-for laskin in range(10):  
+for laskin in range(0-10):  
     print(laskin, end='/ ')
-
+    
 0/  1/  2/  3/  4/  ym. 
+
+for number in range(5, 121, 5):   
+    print(number, end='*')  
+antaa tulokseksi luvut 5-120, jotka ovat viidellä jaollisia ja laittaa lukujen väliin tähden.  (Githubissa muuttaa muodon erilaiseksi)  
+
+5*10*15*20*25*30*35*40*45*50*55*60*65*70*75*80*85*90*95*100*105*110*115*120*
 
 ## with ##
 ## boolean: and, or and not ##
