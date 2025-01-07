@@ -161,12 +161,13 @@ for numero in range(100): //lopettaa loopin 30 kohdalla
         break  
     print(numero, end=' ')    
     
-for numero in range(100):  //Jättää ainoastaan 30 printtaamatta  
-    if numero == 30:  
-        continue  
-    print(numero, end=' ')  
+
 
 
 
 ## continue ##
 
+for numero in range(100):  //Jättää ainoastaan 30 printtaamatta  
+    if numero == 30:  
+        continue  
+    print(numero, end=' ')  
