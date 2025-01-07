@@ -263,6 +263,6 @@ Mode = Ei moodia
 ---
 
 lähteet: 
-[O'Reilly](https://learning.oreilly.com/videos/python-fundamentals-with/9780135917411/9780135917411-PFLL_Lesson03_12/) 
+[O'Reilly: Python Fundamentals with Paul Deitel](https://learning.oreilly.com/course/python-fundamentals-with/9780135917411/)) 
 [chat-gpt: Mean, Median and mode](https://chatgpt.com/c/677bde40-2600-8011-a063-93c24ecb40c5)
 
