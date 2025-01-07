@@ -1,5 +1,5 @@
 //tunti 3-control statements//
-paras lukea raw -tekstinä, jolloin koodin sisennykset näkyvät oikein. 
+paras lukea code -tekstinä, jolloin koodin sisennykset näkyvät oikein. 
 
 ## if 
 
@@ -70,7 +70,10 @@ for **arvosana** in **arvosanat**:              #määritellään uusi muuttuja 
 **keskiarvo** = kokonaispistemaara/laskin      #uusi muuttuja keskiarvo eli kokonaispisteet/kierrokset  
 print(f'Luokan keskiarvo on {keskiarvo}')      #f-string toiminnolla näyttää vastauksen "Luokan keskiarvo on _vastaus_" 
 
-
+f-string  
+numero1 = 7  
+numero2 = 5  
+print(f'{numero1} kertaa {numero2} on {numero1*numero2}')
 
 
 ## range ##
