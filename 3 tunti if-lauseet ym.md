@@ -140,10 +140,33 @@ for year in range(1, 11):
     amount = principal*(1+rate)**year  
     print(f'{year:>2}{amount:>10.2f}')  //tulostaa vuoden eli rivin kaksi ensimmäistä merkkiä (:>2) ja kerääntyneen summan eli riviltä osoitettuna 10 seuraavaa merkkiä (:>10), joista kaksi  merkkiä on varattuna desimaalille (.2f) eli desimaalipisteestä kaksi oikealle.  
 
+ALV-laskin:  
+from decimal import Decimal  
+principal = float(input("Anna arvintolalaskun loppusumma euroina ilman ALV:   "))  
+diPri = Decimal(principal)   
+rate = Decimal('1.14')  
+
+print(f"{diPri*rate:.2f} euroa")  
+
+
+
 
 
 ## with ##
 ## boolean: and, or and not ##
 ## break ##
+
+for numero in range(100): //lopettaa loopin 30 kohdalla  
+    if numero == 30:  
+        break  
+    print(numero, end=' ')    
+    
+for numero in range(100):  //Jättää ainoastaan 30 printtaamatta  
+    if numero == 30:  
+        continue  
+    print(numero, end=' ')  
+
+
+
 ## continue ##
 
