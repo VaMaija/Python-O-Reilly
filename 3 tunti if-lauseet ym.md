@@ -35,6 +35,22 @@ tuote =7
     tuote = tuote*7  
 **print**(tuote)  
 
+summa = 0  
+laskin = 0   
+
+arvosana = int(input('Anna arvosana, kun haluat lopettaa niin syötä -1: '))  
+while arvosana != -1:  
+    summa += arvosana  
+    laskin += 1  
+    arvosana = int(input('Anna arvosana, kun haluat lopettaa niin syötä -1: ')) //Kysyy arvosanaa uudelleen//
+
+if laskin != 0:  //Jos laskimen summa on enemmän kuin nolla//  
+    keskiarvo = summa / laskin  
+    print('Luokan keskiarvo on {keskiarvo:.f}') //keskiarvo kahdella desimaalilla//   
+else:  
+    print('Yhtään arvoa ei syötetty')  
+
+
 ## for ##
 **for** merkki **in** 'ohjelmointi':  //**for**-komennolla erotetaan variaabeli **merkki** 'ohjelmointi'-sanasta jokainen merkki kahdella välilyönnillä  
     print(merkki, end='  ')  //end=' ' määrää välimerkiksi välilyönnin, sep='; ' määrää separator-merkiksi puolipisteen  
