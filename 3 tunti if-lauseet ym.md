@@ -70,6 +70,10 @@ for **arvosana** in **arvosanat**:              #määritellään uusi muuttuja 
 **keskiarvo** = kokonaispistemaara/laskin      #uusi muuttuja keskiarvo eli kokonaispisteet/kierrokset  
 print(f'Luokan keskiarvo on {keskiarvo}')      #f-string toiminnolla näyttää vastauksen "Luokan keskiarvo on _vastaus_" 
 
+Jos ei tiedetä kuinka monta oppilasta kurssilla on niin käytetään toistokertojen vahtia eli looppia toistetaan kunnes tietty ehto tai arvo havaitaan. (sentinel-controlled iteration) 
+**while -komento**  [## while ##]
+
+
 f-string  
 numero1 = 7  
 numero2 = 5  
