@@ -46,7 +46,7 @@ while arvosana != -1:
 
 if laskin != 0:  //Jos laskimen arvo on enemmän kuin nolla//  
     keskiarvo = summa / laskin  
-    print('Luokan keskiarvo on {keskiarvo:.2f}') //keskiarvo kahdella desimaalilla//   
+    print('Luokan keskiarvo on {keskiarvo:.2f}, arvosanoja on annettu {laskin} kappaletta') //keskiarvo kahdella desimaalilla//   
 else:  
     print('Yhtään arvoa ei syötetty')  
 
