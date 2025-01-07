@@ -260,6 +260,9 @@ Mode = Ei moodia
 | **Median** | Keskimmäinen arvo järjestetyssä datassa.    | Kun data sisältää poikkeavia arvoja.       |
 | **Mode**   | Yleisin arvo.                               | Kun haluat tietää, mikä arvo on yleisin.   |
 
+
+![image](https://github.com/user-attachments/assets/b6f8a965-52b5-4160-b6ea-57ee7dae920a)
+
 ---
 
 lähteet: 
