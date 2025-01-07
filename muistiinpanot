@@ -17,7 +17,9 @@ sum = kaikkien otannan kohteiden summa
 variance and standard deviation
 mean = lukujonon keskiarvo  
 median = lukujonossa keskimmäisen lukeman arvo  
-mode = lukujonossa useimmin esiintyvä arvo  
+mode = lukujonossa useimmin esiintyvä arvo 
+ -import statistic > työkaluja tilastotieteisiin mm. mean, median, mode statistic.mean(arvosanat)  
+sorted(arvosanat) = asettaa arvosanat järjestykseen pienimmästä suurimpaan.  
 
 
 kieleen on määritelty komennot min ja max
