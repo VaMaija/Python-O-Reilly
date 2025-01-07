@@ -71,7 +71,7 @@ for **arvosana** in **arvosanat**:              #määritellään uusi muuttuja 
 print(f'Luokan keskiarvo on {keskiarvo}')      #f-string toiminnolla näyttää vastauksen "Luokan keskiarvo on _vastaus_" 
 
 Jos ei tiedetä kuinka monta oppilasta kurssilla on niin käytetään toistokertojen vahtia eli looppia toistetaan kunnes tietty ehto tai arvo havaitaan. (sentinel-controlled iteration) 
-**while -komento**  [## while ##]
+[**while -komento**](## while ##)
 
 
 f-string  
