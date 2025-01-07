@@ -15,10 +15,13 @@ range (range) = otannan vaihteluväli
 count = otannan määrä  
 sum = kaikkien otannan kohteiden summa
 variance and standard deviation
+mean = keskiarvo datapisteinen keskimääräinen arvo eli laskettaan kaikki pisteet yhteen ja jaetaan niiden lukumäärällä.  
+median = meridiaani keskimmäinen arvo kun data on järjestetty suuruusjärjestykseen (pienimmästä suurimpaan). Lasketaan suuruusjärjestyksessä keskimmäisestä arvosta eli parittomasta määrästä keskimmäinen otanta ja parillisesta määrästä kahden keskimmäisen keskiarvo.  
+mode = yleisin arvo
 
 kieleen on määritelty komennot min ja max
 min(27, 38, 45) kertoo pienimmän luvun vastauksena. 
 max(27, 38, 45) kertoo suurimman luvun vastauksena
-sum
-average
-standard deviation and variance
+sum summa  
+average keskiarvo  
+standard deviation and variance jakauma ja virhemarginaali.   
