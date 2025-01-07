@@ -15,6 +15,10 @@ range (range) = otannan vaihteluväli
 count = otannan määrä  
 sum = kaikkien otannan kohteiden summa
 variance and standard deviation
+mean = lukujonon keskiarvo  
+median = lukujonossa keskimmäisen lukeman arvo  
+mode = lukujonossa useimmin esiintyvä arvo  
+
 
 kieleen on määritelty komennot min ja max
 min(27, 38, 45) kertoo pienimmän luvun vastauksena. 
