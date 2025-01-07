@@ -44,9 +44,9 @@ while arvosana != -1:
     laskin += 1  
     arvosana = int(input('Anna arvosana, kun haluat lopettaa niin syötä -1: ')) //Kysyy arvosanaa uudelleen//
 
-if laskin != 0:  //Jos laskimen summa on enemmän kuin nolla//  
+if laskin != 0:  //Jos laskimen arvo on enemmän kuin nolla//  
     keskiarvo = summa / laskin  
-    print('Luokan keskiarvo on {keskiarvo:.f}') //keskiarvo kahdella desimaalilla//   
+    print('Luokan keskiarvo on {keskiarvo:.2f}') //keskiarvo kahdella desimaalilla//   
 else:  
     print('Yhtään arvoa ei syötetty')  
 
