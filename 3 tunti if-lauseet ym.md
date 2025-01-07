@@ -153,7 +153,9 @@ print(f"{diPri*rate:.2f} euroa")
 
 
 ## with ##
+
 ## boolean: and, or and not ##
+
 ## break ##
 
 for numero in range(100): //lopettaa loopin 30 kohdalla  
@@ -171,3 +173,94 @@ for numero in range(100):  //Jättää ainoastaan 30 printtaamatta
     if numero == 30:  
         continue  
     print(numero, end=' ')  
+
+
+
+data science
+määritelmät:  
+
+**mean** 
+**median**
+**mode**   
+
+Tottakai! **Mean**, **Median** ja **Mode** ovat keskilukujen tyyppejä, joita käytetään kuvaamaan datan keskeisiä ominaisuuksia tilastotieteessä. Tässä selitykset:
+
+---
+
+### 1. **Mean (keskiarvo)**
+- **Tarkoittaa**: Datapisteiden keskimääräistä arvoa.
+- **Laskutapa**: Lasketaan yhteen kaikki datapisteet ja jaetaan niiden lukumäärällä.
+
+#### Kaava:
+\[
+\text{Mean} = \frac{\text{Summa kaikista arvoista}}{\text{Arvojen lukumäärä}}
+\]
+
+#### Esimerkki:
+Datan arvot: 2, 4, 6, 8, 10  
+\[
+\text{Mean} = \frac{2 + 4 + 6 + 8 + 10}{5} = \frac{30}{5} = 6
+\]
+
+- Keskiarvo on **6**.
+
+---
+
+### 2. **Median (mediaani)**
+- **Tarkoittaa**: Keskimmäistä arvoa, kun data on järjestetty suuruusjärjestykseen.
+- Jos datapisteitä on **pariton määrä**, mediaani on keskimmäinen arvo.
+- Jos datapisteitä on **parillinen määrä**, mediaani on kahden keskimmäisen arvon keskiarvo.
+
+#### Esimerkki 1 (pariton määrä):
+Datan arvot: 1, 3, 7, 9, 11  
+- Järjestettynä: 1, 3, 7, 9, 11  
+- Keskimmäinen arvo on **7**.  
+Mediaani = **7**
+
+#### Esimerkki 2 (parillinen määrä):
+Datan arvot: 2, 4, 6, 8  
+- Järjestettynä: 2, 4, 6, 8  
+- Keskimmäiset arvot: 4 ja 6  
+\[
+\text{Median} = \frac{4 + 6}{2} = 5
+\]
+
+Mediaani = **5**
+
+---
+
+### 3. **Mode (moodi)**
+- **Tarkoittaa**: Yleisimmin esiintyvää arvoa (eli arvoa, joka toistuu useimmin).
+- Datalle voi olla:
+  - **Yksi moodi**: Jos yksi arvo esiintyy eniten.
+  - **Useita moodeja**: Jos useat arvot esiintyvät yhtä usein.
+  - **Ei moodia**: Jos mikään arvo ei toistu.
+
+#### Esimerkki 1 (yksi moodi):
+Datan arvot: 2, 3, 3, 5, 7  
+- Yleisin arvo on **3**.  
+Mode = **3**
+
+#### Esimerkki 2 (useita moodeja):
+Datan arvot: 1, 2, 2, 3, 3, 4  
+- Yleisimmät arvot ovat **2** ja **3**.  
+Mode = **2 ja 3**
+
+#### Esimerkki 3 (ei moodia):
+Datan arvot: 1, 2, 3, 4  
+- Mikään arvo ei toistu.  
+Mode = Ei moodia
+
+---
+
+### Yhteenveto eroista:
+| **Käsite** | **Mitä kuvaa?**                             | **Milloin käytetään?**                     |
+|------------|---------------------------------------------|--------------------------------------------|
+| **Mean**   | Keskiarvo kaikista arvoista.                | Kun haluat yleiskuvan koko datasta.        |
+| **Median** | Keskimmäinen arvo järjestetyssä datassa.    | Kun data sisältää poikkeavia arvoja.       |
+| **Mode**   | Yleisin arvo.                               | Kun haluat tietää, mikä arvo on yleisin.   |
+
+---
+
+Jos sinulla on kysyttävää näistä tai haluat lisää esimerkkejä, kysy ihmeessä! 😊
+
